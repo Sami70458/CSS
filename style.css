@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* div1 */
+/* div{
+    color: yellow;
+    background-color: black;
+    font-size: 100px;
+    font-family: voyage;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+} */
+
+/* div2 */
+
+/* div{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+} */
+
+/* #sam{
+    background-color: blue;
+}
+
+.sami{
+    background-color: green;
+} */
+
+/* DIV3 */
+
+/* #box{
+    height: 150px;
+    width: 150px;
+    background-color: crimson;
+    margin: 50px;
+    padding:20px;
+} */
+
+/* div4 */
+
+/* #parent{
+    height: 150px;
+    width: 150px;
+    background-color: crimson;
+}
+
+#child{
+    height: 50%;
+    width: 50%;
+    background-color: royalblue;
+} */
+
+button{
+    margin: 40px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: lightcoral;
+    color: white;
+    font-weight: 600;
+    /* border: 2px solid red; */
+    border: none;
+    /* border: 2px dashed red; */
+    /* border: 2px dotted red; */
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
