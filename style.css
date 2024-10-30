@@ -9,6 +9,10 @@ html,body{
     height: 100%;
     width: 100%;
 }
+
+body{
+    background-color: #111;
+}
 /* div1 */
 /* div{
     color: yellow;
@@ -74,7 +78,95 @@ button{
     border-radius: 20px;
 }
 
-button:hover{
+/* button:hover{
     background-color: black;
     color: white;
+}  */
+
+/* DIV5 */
+ 
+/* POSITION ABSOLUTE */
+
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 2px solid #fff;
+
+    position: absolute; /*hawa me */
+    /* left:100px;
+    top: 100px; */
+
+    left : 50%; /*corner center me jayega */
+    top : 50%; 
+    transform: translate(-50%,-50%); /* pura div center me jayega */
+    z-index : 9;
+} 
+
+
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    border: 2px solid #fff;
+    position: absolute; /*hawa me */
+
+    left : 50%; /*corner center me jayega */
+    top : 50%; 
+    z-index : 10; /* kaun kitna upar rahega */
+}
+
+h1{
+    position: absolute; /*hawa me */
+
+    left : 50%; /*corner center me jayega */
+    top : 50%; 
+    transform: translate(-50%,-50%); /* pura div center me jayega */
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+h1 span{
+    font-size: 50px;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: aqua;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* DISPLAY FLEX */
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    align-items: center; /*Align items is used to align items in y axis (cross axis) */
+    /* align-items: flex-start; */
+    /*justify-content: space-between;*/ /* Used to align items in x axis (main axis) */
+    justify-content: space-around;
+}
+
+.child{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 3px solid #fff;
+    /* background-image: url(https://images.unsplash.com/photo-1730033294225-17f36264feec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D); */
+    background-size: cover;
+    background-position: center;
+}
+
+#child1{
+    background-image: url(https://images.unsplash.com/photo-1728999974863-3735a1d99223?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D);
+}
+
+#child2{
+    background-image: url(https://images.unsplash.com/photo-1729698050640-fb67c681f4d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNXx8fGVufDB8fHx8fA%3D%3D);
+}
+
+#child3{
+    background-image: url(https://images.unsplash.com/photo-1730188405991-53973120649f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzM3x8fGVufDB8fHx8fA%3D%3D);
 }
